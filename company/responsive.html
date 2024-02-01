@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            website
+        </title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            .menu{
+                float: left;
+                width: 20%;
+            }
+            .menuitem{
+                padding: 10px;
+                margin-top: 10px;
+                border-bottom: 2px solid black;
+            }
+            .main{
+                float: left;
+                width: 60%;
+                padding: 0 20px;
+                overflow: hidden;
+            }
+            .right{
+                background-color: lightblue;
+                float:inline-end;
+                width: 20%;
+                padding: 20px 20px;
+                margin-top: 20px;
+            }
+            @media only screen and (max-width:500%){
+                .main{
+                width:80%;
+            padding:0;
+                        }
+                        .right{
+                            width:100%;
+                        }
+            }
+            @media only screem and (max-width:500%){
+                .menu, main, .right{
+                width:100%;
+                }
+            }
+            section::after{
+                content: "";
+                display: table;
+                clear: both;
+            }
+            footer{
+                background-color: darkgrey;
+                padding: 10px;
+                text-align: center;
+                color: white;
+                    }
+                    @media(max-width:600px){
+                        nav, artical{
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+        </style>
+    </head>
+    <body style="font-family:Verdana">
+        <div style="background-color: aquamarine;paddinng:20px;">
+            <h1>Inter Net Of Things</h1>
+            <h3>IOT Projects</h3>
+        </div>
+        <!--<div style="overflow: auto;">
+            <div class="menu">
+                <div class="menuitem">Home</div>
+                <div class="menuitem">Projects list</div>
+                <div class="menuitem">Projects ppts</div>
+                <div class="menuitem">Projects documentations</div>
+                <div class="menuitem">contact us</div>
+            </div>-->
+            <section>
+            <nav>
+              <!---<ul>
+                <li><a href="responsive.html" target="_blank">home</a></li>
+                <li><a href="#">Projects list</a></li>
+                <li><a href="#">Projects PPts</a></li>
+                <li><a href="#">Projects Documentations</a></li>
+                <li><a href="#"> contact us</a></li>
+                </ul>-->
+            </nav>
+            <div class="main">
+            <h2>Home</h2>
+<p> Internet of Things, refers to the collective network of connected devices and the technology that facilitates communication between devices and the cloud, as well as between the devices themselves.In our website we will provide all the IOT Projects.IOT Projects are based on the both software and hardware. The IOT is mainly use to reduce the manwork. They are used for more technical smark works.</p>
+<img src="/company/IoT-Based-Smart-Keychain.jpg" style="width: 60%;">
+<figcaption>Fig.1 car key sensor</figcaption>
+
+
+        </div>
+        <div class="right">
+            <h2>Projects papers</h2>
+            <p>All the paper as been publisted to the clients by our team member including the coding and project kits</p>
+            <h2>Addres</h2>
+            <p>hyderabad,hitect city.1-80/2/74</p>
+            <h2>Contact us</h2>
+            <p>Mobile:9110779040</p>
+            <p>emila:nandinigangadhar02@gmail.com</p>
+</div>
+        </div>
+        <div style="background-color: coral; text-align:center; padding:30px; margin: top 30px; font: size 15px;">
+
+        </div>
+</section>
+        <footer>
+            <p>This message is for viwer's</p>
+            <p><samp>If any file does'nt open Contact us</samp>
+            <a href="mailto:nandinigangadhar02@gmail.com">send mail</a>
+            </p>
+        </footer>
+
+    </body>
+</html>

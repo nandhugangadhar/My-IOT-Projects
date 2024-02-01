@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            css
+        </title>
+    </head>
+    <body>
+    {
+        background-color:"red";
+        background-color:powderblue;
+    }
+h1
+    {
+color: brown;
+    }
+    p{
+        color: chocolate;
+    }
+        <h1>this is heading</h1>
+        <p>this is a para</p>
+    </body>
+</html>

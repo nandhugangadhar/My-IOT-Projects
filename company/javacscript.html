@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>js</title>
+    </head>
+    <body>
+        <h3>use the javascript to change the text</h3>
+        <p>in javascript the example writes the "hello javascript" into html id="demo":</p>
+        <button type="button" onclick="myfunction()">click me</button>
+        <p id="demo">this is demonstration</p>
+        <p id="demo"> js can change the font size and style of the html element </p>
+        <script>
+            function myfunction(){
+            document.getElementById("demo").innerHTML = "hello javascript";
+            document.getElementById("demo").style.fontSize="20px";
+            document.getElementById("demo").style.color="blue";
+            document.getElementById("demo").style.background="yellow";
+            }
+        </script>
+        <br>
+        <br>
+        <br>
+       <!--- <h1>js style</h1>
+        <p id="demo"> js can change the font size and style of the html element </p>
+        <script>
+            function myfunction(){
+                document.getElementById("demo").style.fontSize="20px";
+                document.getElementById("demo").style.color="blue";
+                document.getElementById("demo").style.background="yellow";
+            }
+        </script>-->
+    </body>
+</html>
